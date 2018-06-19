@@ -8,6 +8,7 @@ def countdown(n)
 end
 
 def countdown_with_sleep(n)
+     n = 10
      until n == 0
      puts "#{n} SECOND(S)!"
      sleep(5)
